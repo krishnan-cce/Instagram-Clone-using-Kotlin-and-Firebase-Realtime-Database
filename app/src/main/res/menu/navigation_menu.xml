@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/shadedGreen"
+    tools:ignore="HardcodedText">
+
+    <item
+        android:id="@+id/nav_account"
+        android:title="My Account"
+        android:icon="@drawable/ic_print"/>
+
+    <item
+        android:id="@+id/nav_settings"
+        android:title="Settings"
+        android:icon="@drawable/ic_settings_24"/>
+    <item
+        android:id="@+id/nav_about"
+        android:title="About Us"
+        android:icon="@drawable/ic_edit_24"/>
+    <item
+        android:id="@+id/nav_main"
+        android:title="Main"
+        android:icon="@drawable/ic_print"/>
+    <item
+        android:id="@+id/nav_activity"
+        android:title="Share"
+        android:icon="@drawable/ic_share_24"/>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout"
+        android:icon="@drawable/ic_upload_24"/>
+
+</menu>
